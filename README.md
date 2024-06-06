@@ -1,5 +1,7 @@
 # Edge-Computing-GS-2
 
+Integrantes: Michel Dutra Lepine, Gabriel Fiore, Guilherme Santiago
+
 Sistema de Monitoramento da Saúde do Oceano
 
 1.
@@ -85,3 +87,6 @@ void loop() {
     digitalWrite(YELLOW_LED_PIN, LOW);
   }
 }
+
+
+Link do Video: https://www.youtube.com/watch?v=edLC1gSc7GY
