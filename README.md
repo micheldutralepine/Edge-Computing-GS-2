@@ -80,13 +80,14 @@ void loop() {
     digitalWrite(RED_LED_PIN, LOW);
   }
 
-  // Condição para acender o LED amarelo entre 27 e 28 graus Celsius
+
   if (temp >= 27 && temp <= 28) {
     digitalWrite(YELLOW_LED_PIN, HIGH);
   } else {
     digitalWrite(YELLOW_LED_PIN, LOW);
   }
 }
+
 
 
 Link do Video: https://www.youtube.com/watch?v=edLC1gSc7GY
