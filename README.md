@@ -1,30 +1,33 @@
 # Edge-Computing-GS-2
 
-Integrantes: Michel Dutra Lepine, Gabriel Fiore, Guilherme Santiago
+## Equipe
+- Gabriel Souza Fiore – RM553710
+- Guilherme Santiago – RM552321
+- Michel Lepine – RM553558
 
 Sistema de Monitoramento da Saúde do Oceano
 
 1.
 
-Introdução
-O projeto de monitoramento da saúde do oceano permite acompanhar a temperatura e o pH dos ocenaos em tempo real. Utilizando um sensor de temperatura DHT22, um potenciometro para simular um sensor de pH e um display LCD I2C, o sistema exibe as medições em um display e utiliza LEDs para indicar condições críticas. Este sistema é ideal para pesquisadores, ambientalistas e qualquer pessoa interessada em monitorar a saúde dos oceanos.
+Introdução:
+O projeto de monitoramento da saúde do oceano permite acompanhar a temperatura e o pH dos oceanos em tempo real. Utilizando um sensor de temperatura DHT22, um potenciômetro para simular um sensor de pH e um display LCD I2C, o sistema exibe as medições em um display e utiliza LEDs para indicar condições críticas. Este sistema é ideal para pesquisadores, ambientalistas e qualquer pessoa interessada em monitorar a saúde dos oceanos.
 
 Requesitos:
-Sensor de Temperatura DHT22: Medição precisa de temperatura e umidade.
-Potenciometro: Representando a acidez/alcalinidade da água.
-Display LCD I2C (16x2): Exibição das medições de temperatura e pH.
-LEDs (Vermelho e Amarelo): Indicação visual de condições fora do ideal.
-LED Vermelho: Acende quando a temperatura está fora do intervalo 3-28°C ou pH está fora do intervalo 7.5-8.5.
-LED Amarelo: Acende quando a temperatura está entre 27 e 28°C.
-Arduino Uno: Processamento e controle dos sensores e LEDs.
-Resistores: Componentes adicionais para a montagem do circuito.
+- Sensor de Temperatura DHT22: Medição precisa de temperatura e umidade.
+- Potenciometro: Representando a acidez/alcalinidade da água.
+- Display LCD I2C (16x2): Exibição das medições de temperatura e pH.
+- LEDs (Vermelho e Amarelo): Indicação visual de condições fora do ideal.
+- LED Vermelho: Acende quando a temperatura está fora do intervalo 3-28°C ou pH está fora do intervalo 7.5-8.5.
+- LED Amarelo: Acende quando a temperatura está entre 27 e 28°C.
+- Arduino Uno: Processamento e controle dos sensores e LEDs.
+- Resistores: Componentes adicionais para a montagem do circuito.
 
-Instruções de Uso
-Montagem: Siga as instruções de montagem descritas anteriormente para conectar todos os componentes ao Arduino.
-Upload do Código: Use a Arduino IDE para carregar o código fornecido no Arduino.
-Monitoramento: Após o upload do código, o display LCD mostrará as medições de temperatura e pH. Observe os LEDs para indicações visuais:
-LED Vermelho: Indica que a temperatura ou o pH estão fora dos limites aceitáveis.
-LED Amarelo: Indica que a temperatura está em um intervalo crítico (27-28°C).
+Instruções de Uso:
+- Montagem: Siga as instruções de montagem descritas anteriormente para conectar todos os componentes ao Arduino.
+- Upload do Código: Use a Arduino IDE para carregar o código fornecido no Arduino.
+- Monitoramento: Após o upload do código, o display LCD mostrará as medições de temperatura e pH. Observe os LEDs para indicações visuais:
+- LED Vermelho: Indica que a temperatura ou o pH estão fora dos limites aceitáveis.
+- LED Amarelo: Indica que a temperatura está em um intervalo crítico (27-28°C).
 
 Demais informações:
 Este sistema de monitoramento da saúde do oceano é uma ferramenta útil para avaliar as condições ambientais das águas oceânicas. Com medições em tempo real e indicações visuais claras, ele fornece informações valiosas para a preservação e estudo dos ecossistemas marinhos.
@@ -32,6 +35,8 @@ Este sistema de monitoramento da saúde do oceano é uma ferramenta útil para a
 Link do Projeto:
 https://wokwi.com/projects/399729739849414657
 
+Link do Video: 
+https://www.youtube.com/watch?v=edLC1gSc7GY
 
 
 2. código fonte C++:
@@ -88,6 +93,3 @@ void loop() {
   }
 }
 
-
-
-Link do Video: https://www.youtube.com/watch?v=edLC1gSc7GY
